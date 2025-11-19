@@ -1,0 +1,364 @@
+h1 {
+background-color:forestgreen;
+}
+
+body {
+background-color: forestgreen;
+margin: 0;
+padding: 0;
+width: 1000px;
+}
+
+.header-container {
+display:flex;
+justify-content: space-between;
+margin-top: 10px;  
+align-items:flex-start;
+width: 100%;
+}
+
+.left-header {
+margin: 50px 50px 0 0 ;
+width:fit-content;
+position: left;
+background-color: forestgreen;
+align-items: flex-start;
+color: white;
+padding: 20px 2px 20px 2px;
+font-size: 20pt;
+text-align: left;
+
+}
+
+.right-text {
+padding: 0 0 0 0;
+width:1000px;
+background-color:beige;
+margin: 10px 20px 10px  0;
+text-align: center;
+position: left;
+font-family: "Georgia";
+border-radius: 40px;
+
+}
+
+.right-text2 {
+padding: 0 0 0 0;
+width:fit-content;
+background-color:beige;
+margin: 10px 20px 10px  0;
+text-align: center;
+position: relative;
+left: 400px;
+font-family: "Georgia";
+border-radius: 40px;
+
+}
+
+.right-text h1 {
+font-size: 38px;
+color: forestgreen;
+}
+
+.right-text p {
+font-size: 24px;
+color: black;
+width: 400px;
+display: inline-block;
+padding: 4px 8px;
+border-radius:12px;
+
+}
+
+.leftpan {
+margin: 0 20px 0 0;
+width:190px;
+background-color: forestgreen;
+color: white;
+padding: 20px 5px 0 2px;
+font-size: 24px;
+text-align: left;
+font-family: cursive;
+
+}
+
+a {
+    color: white;
+    font-size: 24px;
+    text-align: top left;
+    font-family: cursive;
+    padding: 40px 0 0 0;
+}
+.left-header h5 {
+font-size: 28px;
+font-weight: normal;
+font-family: serif;
+border: solid;
+text-align: center;
+border-radius: 10px 20px 10px 20px; 
+}   
+
+ul {
+    border: solid crimson;
+    border-radius: 20px 0 0 20px
+    
+}
+
+li {
+    background-color: darkgreen;
+}
+
+.intro {
+margin: -500px 0 0 340px;
+width: 900px;
+}
+
+.intro legend {
+    font-size: 28px;
+    color: white;
+}
+
+.intro h2 {
+color: darkblue;
+}
+
+#vquote {
+color:white
+}
+
+.bookgrid {
+position: absolute;
+left: 280px;
+top: 260px;
+display: grid;
+width: 1000px;
+grid-template-rows: 80px 80px 80px;
+grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+gap: 10px 10px;
+grid-template-areas: "item1 item1 item2 item2 item3 item3" "item4 item4 item5 item5 item6 item6" "item7 item7 item7 item8 item8 item8";
+height: 300px;
+border: solid 2px black;
+border-radius: 5px 20px 20px 5px;
+}
+
+#booklegend {
+font-family: Cursive;
+font-size: 30px;
+position: absolute;
+text-align: center;
+top: -80px;
+border: 2px solid grey;
+border-radius: 10px;
+padding: 5px;
+}
+
+.grid1 {
+grid-area: item1;
+grid-column: span 2;
+font-family: "Courier New";
+font-size: 14px;
+padding: 10px;
+text-align: center;
+justify-content: center;
+border: 0.5px solid grey;
+border-radius: 20px;
+display: block;
+
+}
+
+.buttones {
+  font-size: 14px;
+  color: black;
+  display: inline-block;
+  border-radius: 20px;
+  font-family: "Arial";
+  padding: 0px;
+  position: relative;
+  justify-content: center;
+  align-items:center;
+  display:inline-block;
+  cursor: pointer;
+}
+
+
+.buttone {
+  font-size: 14px;
+  color: black;
+  display: inline-block;
+  border-radius: 20px;
+  font-family: "Arial";
+  padding: 0px;
+  position: relative;
+  justify-content: center;
+  align-items:center;
+  display: block
+}
+
+.butttwo {
+font-size: 14px;
+color: black;
+border-radius: 20px;
+font-family:"Arial";
+padding: 4px;
+position: relative;
+
+text-align: center;
+justify-content: center;
+}
+
+.grid2 {
+grid-area: item2;
+grid-column: span 2;
+font-family: "Courier New";
+font-size: 14px;
+padding: 10px;
+text-align: center;
+justify-content: center;
+border: 0.5px solid grey;
+border-radius: 20px;
+display: block;
+}
+
+.grid3 {
+grid-area: item3;
+grid-column: span 2;
+font-family: "Courier New";
+font-size: 14px;
+padding: 10px;
+text-align: center;
+justify-content: center;
+border: 0.5px solid grey;
+border-radius: 20px;
+display: block;
+}
+
+.grid4 {
+grid-area: item4;
+grid-column: span 2;
+font-family: "Courier New";
+font-size: 14px;
+padding: 10px;
+text-align: center;
+justify-content: center;
+border: 0.5px solid grey;
+border-radius: 20px;
+display: block;
+}
+
+.grid5 {
+grid-area: item5;
+grid-column: span 2;
+font-family: "Courier New";
+font-size: 14px;
+padding: 10px;
+text-align: center;
+justify-content: center;
+border: 0.5px solid grey;
+border-radius: 20px;
+display: block;
+}
+
+.grid6 {
+grid-area: item6;
+grid-column: span 2;
+font-family: "Courier New";
+font-size: 14px;
+padding: 10px;
+text-align: center;
+justify-content: center;
+border: 0.5px solid grey;
+border-radius: 20px;
+display: block;
+}
+
+.grid7 {
+grid-area: item7;
+grid-column: span 3;
+font-family: "Courier New";
+font-size: 14px;
+padding: 10px;
+text-align: center;
+justify-content: center;
+border: 0.5px solid grey;
+border-radius: 20px;
+display: block;
+}
+
+.grid8 {
+grid-area: item8;
+grid-column: span 3;
+font-family: "Courier New";
+font-size: 14px;
+padding: 10px;
+text-align: center;
+justify-content: center;
+border: 0.5px solid grey;
+border-radius: 20px;
+display: inline-block;
+}
+
+.year {
+font-style: italic;
+color:darkgrey;
+float:bottom;
+display:inline-block;
+}
+
+
+.resbox {
+position: absolute;
+left: 280px;
+top: 260px;
+display: flex;
+width: fit-content;
+height: fit-content;
+border: solid 2px black;
+border-radius: 25px 20px 20px 25px;
+font-size: 24px;
+}
+
+.reshead {
+color:white;
+font-size: 28px;
+font-style: italic;
+}
+
+
+.gamebox {
+position: relative;
+left: 280px;
+top: 40px;
+display: flex;
+width: fit-content;
+height: fit-content;
+border: solid 2px black;
+border-radius: 25px 20px 20px 25px;
+background-color:ForestGreen
+
+
+}
+
+.reslist{
+border:none;
+font-size:20px;
+}
+
+li.reslist {
+background-color:forestgreen ;
+}
+
+
+footer {
+background-color: #FF746C;
+width: 800px;
+height: fit-content;
+left: 300px;
+position: absolute;
+top: 1000px;
+justify-content: center;
+text-align: center;
+border-radius: 75px;}
+
+.footcont {
+color: blue;}
+

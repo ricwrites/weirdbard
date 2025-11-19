@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head> 
+
+<link rel="stylesheet" href="stylesschools.css">
+<title> RicWrites </title>
+</head>
+<body id = "parent">
+
+        <header class="header-container">
+<div class="left-header">
+<h5 class="left-header"> Navigation </h5>
+<ul>
+<li class="leftpan"><a href="books.html">Books</a></li>
+<li class="leftpan">Podcasts</li>
+<li class="leftpan">Website building-schools</li>
+<li class="leftpan">Laptop services</li>
+<li class="leftpan">PoD Request</li>
+<li class="leftpan">Puzzles&Riddles</li>
+<li class="leftpan">Twine Games</li>
+<li class="leftpan"><a href = "eltres.html">ELT Resources</a></li>
+<li class="leftpan"><a href = "index.html">Home</a></li>
+</ul>
+</div>
+<div class="right-text">
+<h1 class="right-text"> Ric Writes </h1>
+<h3 class = "right-text2">... but what was wrong? </h3>
+</div>
+
+</header>
+
+<div class= "plan-container">
+
+<div class = "plan-card" id = "plan1">
+
+<fieldset>
+<legend>Padawan Plan</legend>
+<img src = "assets/schools/homepage.png" class = "planimg">
+<p><u>Basic plan:</u></p>
+<ul>
+<li>All enrolled students' marks</li>
+<li>Website-entry for marks</li>
+<li>Readymade report cards delivered for the first year</li>
+<li>Automated report cards delivered in subsequent years</li>
+</ul>
+<p>Some other cost considerations:</p>
+<ul> 
+<li>Extra cost considerations
+<ul><li class = "sublist">₹5000 for the whole school if there are 2 sections per class (KG/Nursery not counted)</li><li>₹2,500 for every additional section (3 or more) per class</li></ul>
+<li>Domain cost <ul> <li> Unnecessary if you already have purchased a domain for your school</li> <li> Necessary for any future web endeavours for your school </li> </ul></li> 
+<li>Server Hosting costs<ul> <li>Required: Database hosting cost</li><li>Optional: Deployment Hosting costs (Render/Netlify,etc.)</li></ul> N.B. - These costs would be incurred regardless of the service provider, as these are external costs for a third-party</li> </ul>
+<p> Cost: <s>₹21,000</s> ₹18,000 (inclusive of monthly assistance for upto 3 hours to resolve queries for the whole year) </p>
+
+<img src = "assets/schools/subjects.png" class = "planimg">
+
+</fieldset>
+</div>
+
+
+ <div class="plan-card" id="plan2">
+        <div class="knightplan">
+           <fieldset>
+<legend>Knight Plan</legend>
+<img src = "assets/schools/adminpage.png" class = "planimg">
+<p><u>Standard plan:</u></p>
+<ul>
+<li>All Basic Plan features</li>
+<li>Admin page for school administrative staff to:<ul><li>track and print report cards</li><li>track payments for the school</li><li>facilitate modification of student details in real-time through the year</li></li>
+</ul>
+<p>Some other cost considerations:</p>
+<ul> 
+<li>Extra cost considerations
+<ul><li class = "sublist">₹5500 for the whole school if there are 2 sections per class (KG/Nursery not counted)</li><li>₹2,500 for every additional section (3 or more) per class</li></ul>
+<li>Domain cost <ul> <li> Unnecessary if you already have purchased a domain for your school</li> <li> Necessary for any future web endeavours for your school </li> </ul></li> 
+<li>Server Hosting costs<ul> <li>Required: Database hosting cost</li><li>Optional: Deployment Hosting costs (Render/Netlify,etc.)</li></ul> N.B. - These costs would be incurred regardless of the service provider, as these are external costs for a third-party</li> </ul>
+<p><b>Cost:</b> <s>₹30,000</s> ₹27,000 (inclusive of monthly assistance for upto 6 hours to resolve queries, for the whole year)</p>
+<img src = "assets/schools/studentdetails.png" class = "planimg">
+
+</fieldset>
+        </div>
+    </div>
+
+    <div class="plan-card" id="plan3">
+        <div class="masterplan">
+<fieldset>
+<legend>Master Plan</legend>
+<p><u>Premium plan:</u></p>
+<ul>
+<li>All Standard Plan features</li>
+<li>Student dashboard to<ul><li>track academic performance term-wise</li><li>track attendance</li><li>track certificates and extra-curricular awards</li><li>track announcements/important notices</li></li>
+</ul>
+<p>Some other cost considerations:</p>
+<ul> 
+<li>Extra cost considerations
+<ul><li class = "sublist">₹7500 for the whole school if there are 2 sections per class (KG/Nursery not counted)</li><li>₹2,500 for every additional section (3 or more) per class</li></ul>
+<li>Domain cost <ul> <li> Unnecessary if you already have purchased a domain for your school</li> <li> Necessary for any future web endeavours for your school </li> </ul></li> 
+<li>Server Hosting costs</li><ul> <li>Required: Database hosting cost</li><li>Optional: Deployment Hosting costs (Render/Netlify,etc.)</li></ul> N.B. - These costs would be incurred regardless of the service provider, as these are external costs for a third-party </ul>
+<p><b>Cost:</b> <s>₹48,000</s> ₹45,000 (inclusive of monthly assistance to resolve queries, for the whole year)</p>
+
+</fieldset>
+        </div>
+    </div>
+
+    <div class="plan-nav">
+        <button onclick="showPlan(1)">1</button>
+        <button onclick="showPlan(2)">2</button>
+        <button onclick="showPlan(3)">3</button>
+    </div>
+
+
+</div>
+
+<script>
+function showPlan(n) {
+    let cards = document.querySelectorAll(".plan-card");
+    cards.forEach(card => card.classList.remove("active"));
+    document.getElementById("plan" + n).classList.add("active");
+}
+</script>
+</body>
+</html>

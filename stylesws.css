@@ -1,0 +1,174 @@
+h1 {
+background-color:forestgreen;
+}
+
+body {
+background-color: forestgreen;
+margin: 0;
+padding: 0;
+}
+
+.header-container {
+display:flex;
+justify-content: space-between;
+margin-top: 10px;  
+align-items:flex-start;
+width: 100%;
+}
+
+.left-header {
+margin: 50px 50px 0 0 ;
+width:220px;
+position: left;
+background-color: forestgreen;
+align-items: flex-start;
+color: white;
+padding: 20px 0 0 2px;
+font-size: 20pt;
+text-align: left;
+}
+
+.right-text {
+padding: 0 0 0 0;
+width:1000px;
+background-color:beige;
+margin: 10px 20px 10px  0;
+text-align: center;
+position: left;
+font-family: "Georgia";
+border-radius: 40px
+}
+
+.right-text h1 {
+font-size: 38px;
+color: forestgreen;
+}
+
+.right-text p {
+font-size: 24px;
+color: black;
+width: 400px;
+display: inline-block;
+padding: 4px 8px;
+border-radius:12px;
+
+}
+
+.leftpan {
+margin: 0 20px 0 0;
+width:fit-content;
+background-color: forestgreen;
+color: white;
+padding: 20px 5px 0 2px;
+font-size: 24px;
+text-align: left;
+font-family: cursive;
+
+
+}
+
+a {
+    color: white;
+    font-size: 24px;
+    text-align: top left;
+    font-family: cursive;
+    padding: 40px 0 0 0;
+}
+.left-header h5 {
+font-size: 28px;
+font-weight: normal;
+font-family: serif;
+border: solid;
+text-align: center;
+border-radius: 10px 20px 10px 20px; 
+}   
+
+.leftpan {
+    border: solid forestgreen;
+    border-radius: 20px 0 0 20px
+    
+}
+
+li {
+    background-color: forestgreen;
+}
+
+.intro {
+margin: -500px 0 0 340px;
+width: 900px;
+}
+
+.intro legend {
+    font-size: 28px;
+    color: white;
+}
+
+.intro h2 {
+color: darkblue;
+}
+
+ul {
+border: solid crimson;
+border-radius: 20px 0 0 20px;
+}
+
+#vquote {
+color:white;
+}
+
+.padawanplan {
+position: absolute;
+left:350px;
+top: 200px;
+width: 600px;
+
+
+}
+
+.padawanplan legend {
+color:white;
+font-size:22px;
+font-family: "cursive";
+}
+
+
+
+.padawanplan p, .padawanplan li, .padawanplan ul {
+color:beige;
+font-size:18px;
+font-family: "Arial";
+background-color: forestgreen;
+border: forestgreen solid;
+}
+
+.sublist {
+border: solid 2px forestgreen;}
+
+.plan-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.plan-card {
+    display: none;        /* hide all cards by default */
+    background: beige;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+}
+
+.plan-nav button {
+    margin: 10px 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* show the first plan by default */
+.plan-card.active {
+    display: block;
+}
+
