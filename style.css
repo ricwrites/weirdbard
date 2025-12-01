@@ -327,7 +327,7 @@ font-style: italic;
 .gamebox {
 position: relative;
 left: 280px;
-top: 50px;
+top: 100px;
 display: flex;
 width: fit-content;
 height: fit-content;
