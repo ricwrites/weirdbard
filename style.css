@@ -105,7 +105,7 @@ ul {
 }
 
 li {
-    background-color: darkgreen;
+    background-color: forestgreen;
 }
 
 .intro {
@@ -327,8 +327,9 @@ font-style: italic;
 .gamebox {
 position: relative;
 left: 280px;
-top: 100px;
+top: 200px;
 display: flex;
+padding: 20px;
 width: fit-content;
 height: fit-content;
 border: solid 2px black;
