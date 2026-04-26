@@ -360,7 +360,7 @@ font-size: 24px;
 }
 
 .TSS {
-position: fixed;
+position: absolute;
 left: 280px;
 top: 500px;
 display: flex;
