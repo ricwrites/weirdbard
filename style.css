@@ -360,9 +360,9 @@ font-size: 24px;
 }
 
 .TSS {
-position: relative;
+position: fixed;
 left: 280px;
-top: 10px;
+top: 500px;
 display: flex;
 width: fit-content;
 height: fit-content;
