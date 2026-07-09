@@ -104,6 +104,13 @@ ul {
     
 }
 
+.bizlist {
+    border: 0;
+    border-radius: 20px 0 0 20px
+    
+}
+
+
 li {
     background-color: forestgreen;
 }
@@ -310,6 +317,19 @@ position: absolute;
 left: 280px;
 top: 260px;
 display: flex;
+width: fit-content;
+height: fit-content;
+border: solid 2px black;
+border-radius: 25px 20px 20px 25px;
+font-size: 24px;
+}
+
+.bizbox {
+position: absolute;
+left: 280px;
+top: 260px;
+display: flex;
+flex-direction: column;
 width: fit-content;
 height: fit-content;
 border: solid 2px black;
