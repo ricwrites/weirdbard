@@ -52,17 +52,18 @@ position: relative;
 left: 400px;
 font-family: "Georgia";
 border-radius: 40px;
+color: green;
 
 }
 
 .right-text h1 {
 font-size: 38px;
-color: black;
+color: green;
 }
 
 .right-text p {
 font-size: 24px;
-color: black;
+color: green;
 width: 400px;
 display: inline-block;
 padding: 4px 8px;
@@ -406,3 +407,51 @@ border-radius: 75px;}
 
 .footcont {
 color: blue;}
+
+.vilcontents {
+position: absolute;
+left: 280px;
+top: 260px;
+display: flex;
+flex-direction:column;
+width: fit-content;
+height: fit-content;
+border: solid 2px black;
+border-radius: 25px 20px 20px 25px;
+font-size: 24px;
+}
+
+.villist {
+border: solid beige}
+
+.vilyears {
+display:flex;
+flex-direction: column;
+position:absolute;
+top: 880px;
+justify-content: space-between;
+width: 60%
+}
+
+.vily12 {
+position: relative;
+left: 290px;
+top: 300px;
+width: fit-content;
+height: fit-content;
+border: solid 2px black;
+border-radius: 25px 20px 20px 25px;
+font-size: 24px;
+}
+
+.vily11 {
+position: relative;
+left: 290px;
+top: 320px;
+width: fit-content;
+height: fit-content;
+border: solid 2px black;
+border-radius: 25px 20px 20px 25px;
+font-size: 24px;
+}
+
