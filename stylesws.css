@@ -1,9 +1,9 @@
 h1 {
-background-color:forestgreen;
+background-color:beige;
 }
 
 body {
-background-color: forestgreen;
+background-color: beige;
 margin: 0;
 padding: 0;
 }
@@ -20,7 +20,7 @@ width: 100%;
 margin: 50px 50px 0 0 ;
 width:220px;
 position: left;
-background-color: forestgreen;
+background-color: beige;
 align-items: flex-start;
 color: white;
 padding: 20px 0 0 2px;
@@ -41,7 +41,7 @@ border-radius: 40px
 
 .right-text h1 {
 font-size: 38px;
-color: forestgreen;
+color: beige;
 }
 
 .right-text p {
@@ -57,7 +57,7 @@ border-radius:12px;
 .leftpan {
 margin: 0 20px 0 0;
 width:fit-content;
-background-color: forestgreen;
+background-color: beige;
 color: white;
 padding: 20px 5px 0 2px;
 font-size: 24px;
@@ -84,13 +84,13 @@ border-radius: 10px 20px 10px 20px;
 }   
 
 .leftpan {
-    border: solid forestgreen;
+    border: solid beige;
     border-radius: 20px 0 0 20px
     
 }
 
 li {
-    background-color: forestgreen;
+    background-color: beige;
 }
 
 .intro {
@@ -137,12 +137,12 @@ font-family: "cursive";
 color:beige;
 font-size:18px;
 font-family: "Arial";
-background-color: forestgreen;
-border: forestgreen solid;
+background-color: beige;
+border: beige solid;
 }
 
 .sublist {
-border: solid 2px forestgreen;}
+border: solid 2px beige;}
 
 .plan-container {
     width: 80%;

@@ -1,9 +1,9 @@
 h1 {
-background-color:forestgreen;
+background-color:beige;
 }
 
 body {
-background-color: forestgreen;
+background-color: beige;
 margin: 0;
 padding: 0;
 width: 1000px;
@@ -21,9 +21,9 @@ width: 100%;
 margin: 50px 50px 0 0 ;
 width:fit-content;
 position: left;
-background-color: forestgreen;
+background-color: beige;
 align-items: flex-start;
-color: white;
+color: black;
 padding: 20px 2px 20px 2px;
 font-size: 20pt;
 text-align: left;
@@ -57,7 +57,7 @@ border-radius: 40px;
 
 .right-text h1 {
 font-size: 38px;
-color: forestgreen;
+color: black;
 }
 
 .right-text p {
@@ -73,8 +73,8 @@ border-radius:12px;
 .leftpan {
 margin: 0 20px 0 0;
 width:190px;
-background-color: forestgreen;
-color: white;
+background-color: beige;
+color: green;
 padding: 20px 5px 0 2px;
 font-size: 24px;
 text-align: left;
@@ -83,7 +83,7 @@ font-family: cursive;
 }
 
 a {
-    color: white;
+    color: green;
     font-size: 24px;
     text-align: top left;
     font-family: cursive;
@@ -99,7 +99,7 @@ border-radius: 10px 20px 10px 20px;
 }   
 
 ul {
-    border: solid crimson;
+    border: solid darkgrey;
     border-radius: 20px 0 0 20px
     
 }
@@ -112,7 +112,7 @@ ul {
 
 
 li {
-    background-color: forestgreen;
+    background-color: beige;
 }
 
 .intro {
@@ -122,7 +122,7 @@ width: 900px;
 
 .intro legend {
     font-size: 28px;
-    color: white;
+    color: black;
 }
 
 .intro h2 {
@@ -130,7 +130,7 @@ color: darkblue;
 }
 
 #vquote {
-color:white
+color:darkgrey;
 }
 
 .bookgrid {
@@ -158,6 +158,8 @@ border: 2px solid grey;
 border-radius: 10px;
 padding: 5px;
 }
+
+
 
 .grid1 {
 grid-area: item1;
@@ -338,7 +340,7 @@ font-size: 24px;
 }
 
 .reshead {
-color:white;
+color:black;
 font-size: 28px;
 font-style: italic;
 }
@@ -354,7 +356,7 @@ width: fit-content;
 height: fit-content;
 border: solid 2px black;
 border-radius: 25px 20px 20px 25px;
-background-color:ForestGreen
+background-color:beige
 }
 
 .reslist{
@@ -363,7 +365,7 @@ font-size:20px;
 }
 
 li.reslist {
-background-color:forestgreen ;
+background-color:beige ;
 }
 
 
@@ -392,7 +394,7 @@ font-size: 24px;
 }
 
 footer {
-background-color: #B90E0A;
+background-color: lime;
 width: 800px;
 height: fit-content;
 left: 300px;
