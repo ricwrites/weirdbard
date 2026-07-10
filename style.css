@@ -117,8 +117,11 @@ li {
 }
 
 .intro {
-margin: -500px 0 0 340px;
+margin: 50px 0 0 340px;
 width: 900px;
+position: absolute;
+top: 200px;
+left: 200px;
 }
 
 .intro legend {
@@ -136,7 +139,7 @@ color:darkgrey;
 
 .bookgrid {
 position: absolute;
-left: 280px;
+left: 360px;
 top: 260px;
 display: grid;
 width: 1000px;
@@ -317,7 +320,7 @@ display:inline-block;
 
 .resbox {
 position: absolute;
-left: 280px;
+left: 360px;
 top: 260px;
 display: flex;
 width: fit-content;
@@ -329,7 +332,7 @@ font-size: 24px;
 
 .bizbox {
 position: absolute;
-left: 280px;
+left: 360px;
 top: 260px;
 display: flex;
 flex-direction: column;
@@ -349,8 +352,8 @@ font-style: italic;
 
 .gamebox {
 position: relative;
-left: 280px;
-top: 200px;
+left: 360px;
+top: -400px;
 display: flex;
 padding: 20px;
 width: fit-content;
@@ -400,7 +403,7 @@ width: 800px;
 height: fit-content;
 left: 300px;
 position: absolute;
-top: 1000px;
+top: 2000px;
 justify-content: center;
 text-align: center;
 border-radius: 75px;}
